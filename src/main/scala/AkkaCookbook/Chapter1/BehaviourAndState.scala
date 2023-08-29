@@ -1,4 +1,4 @@
-package Chapter1
+package AkkaCookbook.Chapter1
 
 import akka.actor._
 
