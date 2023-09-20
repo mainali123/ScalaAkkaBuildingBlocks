@@ -46,9 +46,7 @@ object ChangingActorBehaviourExercise extends App {
 
   class Citizen extends Actor {
     var candidate: Option[String] = None
-    override def receive: Receive = {
-      case Vote(candidate) => this.candidate = candidate
-    }
+    override def receive: Receive = ???
   }
 
   case class AggregateVotes(citizens: Set[ActorRef])
